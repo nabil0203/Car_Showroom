@@ -1,0 +1,136 @@
+/* General Page Setup */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f9fafb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Main Card */
+.container {
+    width: 100%;
+    max-width: 420px;
+    background: #fff;
+    padding: 40px 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    text-align: center;
+}
+
+/* Headings */
+h2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    color: #111827;
+}
+
+/* ----------------- Form Styling ----------------- */
+form label {
+    display: block;
+    text-align: left;
+    margin: 8px 0 4px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #374151;
+}
+
+form input[type="text"],
+form input[type="number"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 18px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 14px;
+    transition: border 0.3s;
+}
+
+form input:focus {
+    border: 1px solid #6366f1;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(99,102,241,0.2);
+}
+
+/* Submit nad Back Buttons */
+button, a.back-btn {
+    display: inline-block;
+    width: 100%;
+    padding: 12px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 8px;
+    text-decoration: none;
+}
+
+button {
+    background: #6366f1;
+    color: white;
+    border: none;
+}
+
+button:hover {
+    background: #4f46e5;
+}
+
+a.back-btn {
+    background: #e5e7eb;
+    color: #111827;
+}
+
+a.back-btn:hover {
+    background: #d1d5db;
+}
+
+/* ----------------- Table Styling (Index Page) ----------------- */
+.table-container {
+    width: 100%;
+    margin-top: 20px;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #e5e7eb;
+    font-size: 14px;
+    color: #374151;
+}
+
+table th {
+    background: #f3f4f6;
+    font-weight: 600;
+    color: #111827;
+}
+
+/* Action Buttons in Table */
+a.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    margin: 2px;
+}
+
+a.btn-success { background: #10b981; color: white; }
+a.btn-success:hover { background: #059669; }
+
+a.btn-warning { background: #f59e0b; color: white; }
+a.btn-warning:hover { background: #d97706; }
+
+a.btn-danger { background: #ef4444; color: white; }
+a.btn-danger:hover { background: #dc2626; }
