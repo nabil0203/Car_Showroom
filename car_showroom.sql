@@ -5,7 +5,7 @@ CREATE DATABASE car_showroom;
 USE car_showroom;
 
 -- Create table
-CREATE TABLE IF NOT EXISTS car_details (
+CREATE TABLE car_details (
     id INT AUTO_INCREMENT PRIMARY KEY,
     brand VARCHAR(100) NOT NULL,
     model VARCHAR(100) NOT NULL,
