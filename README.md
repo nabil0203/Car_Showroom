@@ -24,6 +24,7 @@ This project demonstrates how to perform Create, Read, Update, and Delete operat
 ## 📂 Project Structure
 ```bash
 Car-showroom
+      │
       │── index.php                   # Show all cars (Read)
       │── add.php                     # Add new car (Create)
       │── edit.php                    # Update car details (Update)
